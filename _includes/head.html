@@ -1,0 +1,20 @@
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{% if page.title == "Home" %}{{ site.title }}{% else %}{{ page.title }} &middot; {{ site.title }}{% endif %}</title>
+<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">{% if page.noindex == true %}
+<meta name="robots" content="noindex">{% endif %}{% if page.nofollow == true %}
+<meta name="robots" content="nofollow">{% endif %}
+<meta name="apple-mobile-web-app-title" content="Mariya">
+<meta name="application-name" content="Mariya">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png?v=XBzarpBopW">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png?v=XBzarpBopW">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png?v=XBzarpBopW">
+<link rel="manifest" href="/assets/icons/site.webmanifest?v=XBzarpBopW">
+<link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg?v=XBzarpBopW" color="#5bbad5">
+<link rel="sitemap" href="{{ 'sitemap.xml' | absolute_url }}" type="application/xml" title="Sitemap">
+<link rel="alternate" href="{{ 'feed.xml' | absolute_url }}" type="application/rss+xml" title="{{ site.title }}: най-нови публикации">{% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
+<link rel="canonical" href="{{ canonical }}">{% if page.previous.url %}
+<link rel="prev" href="{{ page.previous.url | replace:'index.html','' | prepend: site.url }}" title="{{ page.previous.title | markdownify | strip_html | strip_newlines }}">{% endif %}{% if page.next.url %}
+<link rel="next" href="{{ page.next.url | replace:'index.html','' | prepend: site.url }}" title="{{ page.next.title | markdownify | strip_html | strip_newlines }}">{% endif %}
+<link rel="stylesheet" href="/assets/css/main.css">

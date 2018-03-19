@@ -1,0 +1,63 @@
+title:       "Mariya Evtimova"
+subtitle:    "creative portfolio"
+description: "Mariya is an up and coming creative and hard working art director with a recent nomination for BAFTA Cymru for Best short film"
+url:         "https://mariyaevtimova.github.io"
+baseurl:     ""
+
+permalink: /:title/
+excerpt_separator: <!--more-->
+markdown_ext: "md"
+
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+
+defaults:
+ - scope:
+     path: ''
+     type: posts
+   values:
+      layout: post
+ - scope:
+     path: ''
+     type: pages
+   values:
+     layout: page
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+author:
+  name:      Mariya Evtimova
+  uri:       "https://mariyaevtimova.com"
+  email:     mariya.evtimova@gmail.com
+  twitter:   mariyaevtimova
+  facebook:  mariyaevtimova
+  instagram: mariyaevtimova
+  github:    mariyaevtimova
+  behance:   mariyaevtimova
+  linkedin:  mariyaevtimova
+
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - Gruntfile.js
+  - LICENSE
+  - netlify.toml
+  - node_modules
+  - README.md
+  - package.json
+  - .ruby-version
+
+encoding: utf-8
+ga: UA-00000000-1
+
+timezone: Europe/London

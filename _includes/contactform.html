@@ -1,0 +1,11 @@
+<form name="contact" action="https://formspree.io/{{ site.author.email }}" method="POST">
+<input type="hidden" name="_format" value="plain"/>
+<input type="hidden" name="_language" value="bg"/>
+<input type="hidden" name="_subject" value="New form submission"/>
+<input type="hidden" name="_next" value="{{ site.url }}/thank-you/"/>
+<input type="text" name="_gotcha" style="display:none"/>
+<p><label>Your name:</label><input name="_name" type="text"/></p>
+<p><label>E-mail address:</label><input name="_replyto" type="email"/></p>
+<p><label>Message:</label><textarea name="_message"></textarea></p>
+<p><button type="submit" class="Button">Send</button></p>
+</form>

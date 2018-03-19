@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: "bg-BG" }}" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+{% include head.html %}{% if site.ga %}
+{% include ga.html %}{% endif %}
+{% include scripts.html %}
+{% include icons.html %}
+</head>
+<body class="Site">
+{% include header.html %}
+<div class="Site-contentContainer">
+<main class="Site-content">
+<article role="article" class="hentry" id="content">
+<header class="ContentHeader">
+<h1 class="ContentHeader-pageTitle">{{ page.title }}</h1>
+</header>
+<div class="entry-content">
+{{ content }}
+</div>
+<footer class="entry-unrelated">
+</footer>
+</article>
+</main>
+</div>
+{% include metadata.json %}
+{% include footer.html %}
+</body>
+</html>

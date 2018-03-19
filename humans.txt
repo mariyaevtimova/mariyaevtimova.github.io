@@ -1,0 +1,37 @@
+---
+layout: null
+sitemap: false
+---
+Last Updated: {{ site.time | date:"%Y-%m-%d" }}
+
+The Humans Responsible & Colophon
+humanstxt.org
+
+{{ site.url }}
+
+## Team
+- mnmlivn
+  - designer
+  - mnmlivn@gmail.com
+  - @mnmlivn
+
+
+## Thanks
+- My friends who supported this project
+
+
+## Site
+- Standards
+  - HTML (https://www.w3.org/TR/html5/)
+  - CSS (https://www.w3.org/TR/2001/WD-css3-roadmap-20010523/)
+  - JavaScript (https://www.javascript.com/)
+  - Markdown (https://daringfireball.net/projects/markdown/)
+  - SVG (https://www.w3.org/TR/SVG/)
+
+- Components
+  - Git (https://git-scm.com/)
+  - GitHub (https://github.com/)
+  - Gulp (http://gulpjs.com/)
+  - Sass (http://sass-lang.com/)
+  - Node.js (https://nodejs.org/en/)
+  - Jekyll (https://jekyllrb.com)
