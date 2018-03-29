@@ -15,10 +15,10 @@ Mariya is an up and coming creative and hard working art director with a recent 
 ### Contact info
 
 - Email: <a href="/contact/">mariya.evtimova@gmail.com</a>
-- Phone: <a href="tel:+4407999279172">+4407999279172</a>
+- Phone: +4407999279172
 - Instagram: <a href="https://instagram.com/{{ site.author.instagram }}">{{ site.author.instagram }}</a>
 - Behance: <a href="https://behance.com/{{ site.author.behance }}">{{ site.author.behance }}</a>
-- LinkedIn: <a href="https://linkedin.com/in/{{ site.author.linkedin }}/en">{{ site.author.linkedin }}</a>
+- LinkedIn: <a href="https://linkedin.com/{{ site.author.linkedin }}">{{ site.author.linkedin }}</a>
 
 ### Film Experience:
 
@@ -151,23 +151,7 @@ Mariya is an up and coming creative and hard working art director with a recent 
 <table>
 <tr>
 <td><strong>2013-2016</strong></td>
-<td><a href="http://www.arts.ac.uk/">University of Arts London</a></td>
+<td>University of Arts London</td>
 <td>BA Live Events and Television</td>
-</tr>
-</table>
-<p>&nbsp;</p>
-
-### References:
-
-<table>
-<tr>
-<td><strong>Candida Moriarty</strong></td>
-<td>Course leader</td>
-<td>BA Live Events and TV, University of the Arts London: c.moriarty@lcc.arts.ac.uk</td>
-</tr>
-<tr>
-<td><strong>Geoff Posner</strong></td>
-<td>TV Producer/Director</td>
-<td>g.posner@arts.ac.uk</td>
 </tr>
 </table>

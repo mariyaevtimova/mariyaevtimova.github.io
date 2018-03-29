@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "The Dead Factor"
-description: "Portfolio of Mariya Evtimova — The Dead Factor"
+title: "The Walking Dead"
+description: "Portfolio of Mariya Evtimova — The Walking Dead"
 permalink: /portfolio/video-walkingdead/
 ---
 **Position:** Assistant Art Director  

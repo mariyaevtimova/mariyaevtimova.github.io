@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="{{ page.lang | default: site.lang | default: "bg-BG" }}" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://ogp.me/ns/fb#">
-<head>
+<head>{% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
 {% include head.html %}{% if site.ga %}
 {% include ga.html %}{% endif %}
 {% include scripts.html %}
