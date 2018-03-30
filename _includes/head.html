@@ -5,14 +5,13 @@
 <meta name="robots" content="noindex">{% endif %}{% if page.nofollow == true %}
 <meta name="robots" content="nofollow">{% endif %}
 <meta name="google" content="notranslate">
-<meta name="apple-mobile-web-app-title" content="Mariya">
-<meta name="application-name" content="Mariya">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@{{ site.author.twitter }}">
 <meta name="twitter:creator" content="@{{ site.author.twitter }}">
 <meta name="twitter:url" content="{{ canonical }}">
 <meta name="twitter:title" content="{% if page.title == "Home" %}{{ site.title }}{% else %}{{ page.title }} &middot; {{ site.title }}{% endif %}">
 <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta name="twitter:image" content="{{ 'assets/img/og-image.jpg' | absolute_url }}">
 <meta name="twitter:dnt" content="on">
 <meta property="og:url" content="{{ canonical }}">
 <meta property="og:type" content="website">
@@ -20,12 +19,21 @@
 <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="{{ 'assets/img/og-image.jpg' | absolute_url }}">
+<meta property="og:image:height" content="363">
+<meta property="og:image:width" content="694">
 <meta property="article:author" content="{{ site.author.uri }}">
-<link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png?v=XBzarpBopW">
-<link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png?v=XBzarpBopW">
-<link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png?v=XBzarpBopW">
-<link rel="manifest" href="/assets/icons/site.webmanifest?v=XBzarpBopW">
-<link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg?v=XBzarpBopW" color="#5bbad5">
+<meta name="apple-mobile-web-app-title" content="Mariya">
+<meta name="application-name" content="Mariya">
+<meta name="msapplication-TileColor" content="#ffc40d">
+<meta name="msapplication-config" content="/assets/icons/browserconfig.xml?v=A0ej0OJPMa">
+<meta name="theme-color" content="#ffffff">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png?v=A0ej0OJPMa">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png?v=A0ej0OJPMa">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png?v=A0ej0OJPMa">
+<link rel="manifest" href="/assets/icons/site.webmanifest?v=A0ej0OJPMa">
+<link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg?v=A0ej0OJPMa" color="#5bbad5">
+<link rel="shortcut icon" href="/assets/icons/favicon.ico?v=A0ej0OJPMa">
 <link rel="sitemap" href="{{ 'sitemap.xml' | absolute_url }}" type="application/xml" title="Sitemap">
 <link rel="alternate" href="{{ 'feed.xml' | absolute_url }}" type="application/rss+xml" title="{{ site.title }}: най-нови публикации">{% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
 <link rel="canonical" href="{{ canonical }}">{% if page.previous.url %}
