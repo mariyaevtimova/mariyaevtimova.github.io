@@ -5,7 +5,7 @@ description: "Portfolio of Mariya Evtimova — Meat on Bones"
 permalink: /portfolio/film-meatonbones/
 ---
 **Position:** Art Director  
-**DOP:** Chris  
+**DOP:** Chris Purdens  
 **Director:** Joe Ollman  
 
 <div class="VideoContainer">
