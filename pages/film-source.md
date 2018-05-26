@@ -4,9 +4,11 @@ title: "The Source"
 description: "Portfolio of Mariya Evtimova — The Source"
 permalink: /portfolio/film-source/
 ---
-**Position:** Production Designer  
-**DOP:** Olivia Segara  
-**Director:** Ana Garcia  
+<p class="text-center">
+<strong>Position:</strong> Production Designer<br> 
+<strong>DOP:</strong> Olivia Segara<br>
+<strong>Director:</strong> Ana Garcia
+</p>
 
 <div class="VideoContainer">
 <iframe class="VideoContainer-frame" width="640" src="https://www.youtube.com/embed/k1Aw0pZI2uU" frameborder="0" allowfullscreen></iframe>

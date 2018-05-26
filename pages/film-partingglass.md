@@ -8,9 +8,11 @@ permalink: /portfolio/film-partingglass/
 <img src="/assets/img/banner-partingglass.jpg">
 </figure>
 
-**Position:** Production Designer  
-**DOP:** Csba Condor  
-**Director:** Dan Kershaw  
+<p class="text-center">
+<strong>Position:</strong> Production Designer<br>
+<strong>DOP:</strong> Csba Condor<br>  
+<strong>Director:</strong> Dan Kershaw  
+</p>
 
 <div class="VideoContainer">
 <iframe class="VideoContainer-frame" width="640" src="https://www.youtube.com/embed/Lyap_-3mDaU" frameborder="0" allowfullscreen></iframe>
