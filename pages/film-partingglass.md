@@ -4,6 +4,10 @@ title: "Solis Film"
 description: "Portfolio of Mariya Evtimova — The Parting Glass"
 permalink: /portfolio/film-partingglass/
 ---
+<figure>
+<img src="/assets/img/banner-partingglass.jpg">
+</figure>
+
 **Position:** Production Designer  
 **DOP:** Csba Condor  
 **Director:** Dan Kershaw  
