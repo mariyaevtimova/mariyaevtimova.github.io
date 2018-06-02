@@ -4,6 +4,13 @@ title: "The Walking Dead"
 description: "Portfolio of Mariya Evtimova — The Walking Dead"
 permalink: /portfolio/video-walkingdead/
 ---
+<ul class="rslides" id="slider1">
+<li><img src="/assets/img/slide/df/1.jpg" alt=""></li>
+<li><img src="/assets/img/slide/df/2.png" alt=""></li>
+<li><img src="/assets/img/slide/df/3.png" alt=""></li>
+<li><img src="/assets/img/slide/df/4.png" alt=""></li>
+</ul>
+<p>&nbsp;</p>
 <p class="text-center">
 <strong>Position:</strong> Assistant Art Director <br> 
 <strong>Art Director:</strong> Blair Barnette  <br>
