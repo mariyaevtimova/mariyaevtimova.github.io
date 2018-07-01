@@ -16,10 +16,6 @@ humanstxt.org
   - @mnmlivn
 
 
-## Thanks
-- My friends who supported this project
-
-
 ## Site
 - Standards
   - HTML (https://www.w3.org/TR/html5/)

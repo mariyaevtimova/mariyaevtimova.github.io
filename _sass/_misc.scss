@@ -602,3 +602,144 @@
 .text-center {
   text-align: center;
 }
+
+
+/*
+ * responsive-carousel
+ * https://github.com/filamentgroup/responsive-carousel
+ *
+ * Copyright (c) 2012 Filament Group, Inc.
+ * Licensed under the MIT, GPL licenses.
+ */
+.carousel {
+ margin: 10px auto;
+ max-width: 640px;
+ font-family: sans-serif;
+ position: relative;
+}
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.carousel-nav {
+  position: absolute;
+  bottom: 0;
+  z-index: 4;
+  width: 100%;
+}
+.carousel-nav a {
+  text-decoration: none;
+  font-size: .8em;
+  background: #fff;
+  color: #333;
+  opacity: .8;
+  padding: .5em;
+  position: absolute;
+  bottom: 0;
+  font-weight: bold;
+}
+.carousel-nav a.prev {
+  left: 0;
+}
+.carousel-nav a.next {
+  right: 0;
+}
+.carousel-nav-paginated .carousel-active-page a {
+  background: #333;
+  color: #fff;
+  opacity: .8;
+}
+
+
+/* styled arrows */
+.arrows .carousel-nav {
+  bottom: auto;
+  top: 50%;
+}
+.arrows .carousel-nav a {
+  text-indent: -9999px;
+  width: 2em;
+  height: 2em;
+  background: #fff;
+  opacity: .5;
+  overflow: hidden;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+}
+.arrows .carousel-nav a:hover,
+.arrows .carousel-nav a:focus {
+  opacity: 1;
+}
+.arrows .carousel-nav a.next {
+  background-image: url(arrow-right.png);
+  right: 1em;
+}
+.arrows .carousel-nav a.prev {
+  background-image: url(arrow-left.png);
+  left: 1em;
+}
+.carousel-item {
+  position: relative;
+}
+.carousel a:focus,
+.carousel .carousel-item:focus:after  {
+  outline: 2px dotted orange;
+}
+.carousel .carousel-item:focus:after {
+  content: "\20";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+}
+
+/*
+ * responsive-carousel
+ * https://github.com/filamentgroup/responsive-carousel
+ *
+ * Copyright (c) 2012 Filament Group, Inc.
+ * Licensed under the MIT, GPL licenses.
+*/
+.carousel-fade {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-item {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%; /* necessary for non-active slides */
+    display: block; /* overrides basic carousel styles */
+    -webkit-transition: opacity .5s ease;
+    -moz-transition: opacity .5s ease;
+    -ms-transition: opacity .5s ease;
+    -o-transition: opacity .5s ease;
+    transition: opacity .5s ease;
+}
+.carousel-fade .carousel-active {
+    position: relative;
+}
+
+.carousel-item {
+    opacity: 0;
+}
+
+.carousel-active {
+    opacity: 1;
+}
+
+.carousel-fade .carousel-out {
+    opacity: 0;
+}
+
+.carousel-fade .carousel-in {
+    opacity: 1;
+}
