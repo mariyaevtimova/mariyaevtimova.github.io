@@ -4,10 +4,13 @@ title: "Meat on Bones"
 description: "Portfolio of Mariya Evtimova — Meat on Bones"
 permalink: /portfolio/film-meatonbones/
 ---
-<ul class="rslides" id="slider1">
-<li><img src="/assets/img/slide/mb/3.jpg" alt=""></li>
-<li><img src="/assets/img/slide/mb/5.jpg" alt=""></li>
-</ul>
+<div class="carousel" data-transition="fade" data-autoplay>
+<div><img src="/assets/img/slide/mb/001.jpg" alt=""></div>
+<div><img src="/assets/img/slide/mb/002.jpg" alt=""></div>
+<div><img src="/assets/img/slide/mb/003.jpg" alt=""></div>
+<div><img src="/assets/img/slide/mb/004.jpg" alt=""></div>
+</div>
+
 <p>&nbsp;</p>
 
 <p class="text-center">

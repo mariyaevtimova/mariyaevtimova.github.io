@@ -4,9 +4,16 @@ title: "The Source"
 description: "Portfolio of Mariya Evtimova — The Source"
 permalink: /portfolio/film-source/
 ---
-<ul class="rslides" id="slider1">
-<li><img src="/assets/img/slide/sr/1.jpg" alt=""></li>
-</ul>
+<div class="carousel" data-transition="fade" data-autoplay>
+<div><img src="/assets/img/slide/sr/000.jpg" alt=""></div>
+<div><img src="/assets/img/slide/sr/001.jpg" alt=""></div>
+<div><img src="/assets/img/slide/sr/002.jpg" alt=""></div>
+<div><img src="/assets/img/slide/sr/003.jpg" alt=""></div>
+<div><img src="/assets/img/slide/sr/004.jpg" alt=""></div>
+<div><img src="/assets/img/slide/sr/005.jpg" alt=""></div>
+<div><img src="/assets/img/slide/sr/006.jpg" alt=""></div>
+</div>
+
 <p>&nbsp;</p>
 <p class="text-center">
 <strong>Position:</strong> Production Designer<br> 
