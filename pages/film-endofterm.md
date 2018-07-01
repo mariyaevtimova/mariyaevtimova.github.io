@@ -4,12 +4,13 @@ title: "End of Term Film"
 description: "Portfolio of Mariya Evtimova — End of Term Film"
 permalink: /portfolio/film-endofterm/
 ---
-<ul class="rslides" id="slider1">
-<li><img src="/assets/img/slide/et/1.jpg" alt=""></li>
-<li><img src="/assets/img/slide/et/2.jpg" alt=""></li>
-<li><img src="/assets/img/slide/et/3.png" alt=""></li>
-<li><img src="/assets/img/slide/et/4.png" alt=""></li>
-</ul>
+<div class="carousel" data-transition="fade" data-autoplay>
+<div><img src="/assets/img/slide/et/1.jpg" alt=""></div>
+<div><img src="/assets/img/slide/et/2.jpg" alt=""></div>
+<div><img src="/assets/img/slide/et/3.png" alt=""></div>
+<div><img src="/assets/img/slide/et/4.png" alt=""></div>
+</div>
+
 <p>&nbsp;</p>
 
 <p class="text-center">
