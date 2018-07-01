@@ -24,7 +24,7 @@
    "name": "{{ site.author.name }}",
    "logo": {
      "@type": "ImageObject",
-     "url": "{{ "assets/img/og-image.jpg" | absolute_url }}",
+     "url": "{{ "/assets/img/og-image.jpg" | absolute_url }}",
      "width": 694,
      "height": 363
    }
