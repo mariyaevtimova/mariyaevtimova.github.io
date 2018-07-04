@@ -17,8 +17,8 @@ Mariya is an up and coming creative and hard working art director with a recent 
 - <span class="icon-mail"></span> Email: <a href="/contact/">mariya.evtimova@gmail.com</a>
 - <span class="icon-phone"></span> Phone: +4407999279172
 - <span class="icon-instagram"></span> Instagram: <a href="https://instagram.com/{{ site.author.instagram }}">{{ site.author.instagram }}</a>
-- <span class="icon-behance"></span> Behance: <a href="https://behance.com/{{ site.author.behance }}">{{ site.author.behance }}</a>
-- <span class="icon-linkedin"></span> LinkedIn: <a href="https://linkedin.com/{{ site.author.linkedin }}">{{ site.author.linkedin }}</a>
+- <span class="icon-behance"></span> Behance: <a href="https://www.behance.net/mariyaevtimova">{{ site.author.behance }}</a>
+- <span class="icon-linkedin"></span> LinkedIn: <a href="https://www.linkedin.com/in/mariyaevtimova/">{{ site.author.linkedin }}</a>
 
 ### Film Experience:
 
